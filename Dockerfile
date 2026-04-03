@@ -19,8 +19,8 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
-# Build for release. Optimize for small size to save RAM during build on free tier.
-RUN zig build -Doptimize=ReleaseSmall --summary none
+# Build for release
+RUN zig build -Doptimize=ReleaseFast
 
 # Stage 2: Create a minimal runtime image
 FROM ubuntu:24.04

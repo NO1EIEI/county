@@ -2,8 +2,6 @@
 
 เกมทายตัวเลขสุดคิวท์ 🚀 พัฒนาด้วยภาษา **Zig** และรันบน **Docker**
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/NO1EIEI/county)
-
 ## ✨ คุณสมบัติ
 - **3D Physics Engine:** ใช้ Three.js และ Cannon.js สำหรับเอฟเฟกต์การระเบิด
 - **High Performance:** รันด้วย Zig Web Server แท้ๆ
