@@ -11,7 +11,7 @@ pub fn main() !void {
         port = std.fmt.parseInt(u16, port_str, 10) catch 3000;
     } else |_| {}
 
-    const address = try std.net.Address.parseIp4("127.0.0.1", port);
+    const address = try std.net.Address.parseIp4("0.0.0.0", port);
     var server = try address.listen(.{
         .reuse_address = true,
     });

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: zig-county
+    runtime: docker
+    envVars:
+      - key: PORT
+        value: 3000
