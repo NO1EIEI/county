@@ -1,8 +1,0 @@
-.git
-.zig-cache
-zig-out
-web
-Dockerfile
-.github
-render.yaml
-README.md

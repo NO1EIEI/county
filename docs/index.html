@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกมทายตัวเลขสุดคิวท์ 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="glitch-overlay"></div>
+    <div id="canvas-container"></div>
+    <div id="ui-container">
+        <div class="header">
+            <h1 data-text="ทายใจมาเลยยย">ทายใจมาเลยยย</h1>
+            <p style="color:#ffb6c1; font-weight:700; letter-spacing:0.1em;">// ผู้บัญชาการ: Oummy ✨ //</p>
+            <p id="levelDisplay">ภารกิจหลัก: ด่าน 1 (ตัวเลข 1 ถึง 100) 🚀</p>
+        </div>
+        <div class="stats">
+            <span id="attemptCounter">เหลือโอกาสอีก: 5 ครั้งนะ 🥺</span>
+        </div>
+        <div class="options" style="margin-bottom: 20px; font-size: 1.1rem; color: #ffb6c1;">
+            <label style="cursor:pointer; display:flex; align-items:center; gap:8px;">
+                <input type="checkbox" id="hintToggle" style="width:20px; height:20px; margin:0;" checked> เปิดคำใบ้ช่วยนะ 🕵️‍♀️
+            </label>
+        </div>
+        <div class="input-section">
+            <input type="number" id="guessInput" placeholder="พิมพ์เลย..." autofocus autocomplete="off" />
+            <button id="guessBtn">ส่งคำตอบเยย! 💌</button>
+        </div>
+        <div id="feedback">กำลังโหลดน้าาา รอแป๊บ... ⏳</div>
+        <div id="history"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
