@@ -79,7 +79,7 @@ fn handleConnection(allocator: std.mem.Allocator, connection: std.net.Server.Con
                 \\    <div id="ui-container">
                 \\        <div class="header">
                 \\            <h1 data-text="ทายใจมาเลยยย">ทายใจมาเลยยย</h1>
-                \\            <p style="color:#ffb6c1; font-weight:700; letter-spacing:0.1em;">// ผู้บัญชาการ: OUMMY ✨ //</p>
+                \\            <p style="color:#ffb6c1; font-weight:700; letter-spacing:0.1em;">// Developer สุดหล่อเท่ห์: Oummy ✨ //</p>
                 \\            <p id="levelDisplay">ภารกิจหลัก: ด่าน 1 (ตัวเลข 1 ถึง 100) 🚀</p>
                 \\        </div>
                 \\        <div class="stats">
